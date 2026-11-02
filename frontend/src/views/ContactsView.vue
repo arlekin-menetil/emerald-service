@@ -43,7 +43,7 @@ const submitVacancyApplication = async () => {
 
   try {
     const response = await fetch(
-      'http://127.0.0.1:8002/api/career/applications/',
+      `${API_BASE}/api/career/applications/`,
       {
         method: 'POST',
         headers: {

@@ -4,7 +4,9 @@ import axios from 'axios'
 import { Play, ArrowRight } from '@lucide/vue'
 import { useLanguage } from '../../composables/useLanguage'
 
-const API_BASE_URL = 'http://127.0.0.1:8002'
+import { API_BASE } from '../../config/api'
+
+const API_BASE_URL = API_BASE
 
 const { t, currentLanguage } = useLanguage()
 

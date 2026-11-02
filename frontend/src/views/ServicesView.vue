@@ -25,7 +25,9 @@ import ServicesCta from '../components/services/ServicesCta.vue'
 
 import '../assets/services.css'
 
-const API_BASE_URL = 'http://127.0.0.1:8002'
+import { API_BASE } from '../config/api'
+
+const API_BASE_URL = API_BASE
 
 const categories = ref([])
 const rawServices = ref([])

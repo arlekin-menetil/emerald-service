@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useLanguage } from '../composables/useLanguage'
 import '../assets/shop.css'
 
-const API_BASE = 'http://127.0.0.1:8002'
+import { API_BASE } from '../config/api'
 
 const route = useRoute()
 const router = useRouter()

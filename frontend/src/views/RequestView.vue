@@ -22,7 +22,9 @@ import {
 const route = useRoute()
 const router = useRouter()
 
-const API_BASE_URL = 'http://127.0.0.1:8002'
+import { API_BASE } from '../config/api'
+
+const API_BASE_URL = API_BASE
 
 const services = ref([])
 const loadingServices = ref(true)

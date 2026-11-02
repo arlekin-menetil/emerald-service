@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useLanguage } from '../../composables/useLanguage'
 
-const API_BASE = 'http://127.0.0.1:8002'
+import { API_BASE } from '../../config/api'
 const router = useRouter()
 const { t } = useLanguage()
 

@@ -1,7 +1,9 @@
 import { ref } from 'vue'
 
 const SUPPORTED_LANGUAGES = ['ru', 'uz', 'en', 'zh']
-const API_URL = 'http://127.0.0.1:8002/api/translations/'
+import { API_BASE } from '../config/api'
+
+const API_URL = `${API_BASE}/api/translations/`
 
 const savedLanguage = localStorage.getItem('site_language')
 
