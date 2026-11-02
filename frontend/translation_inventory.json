@@ -1,0 +1,3648 @@
+{
+  "generated_by": "audit_russian.py v2",
+  "frontend_root": "/Users/m/Desktop/emerald-service/frontend",
+  "backend_translation_file": "/Users/m/Desktop/emerald-service/backend/translations/data.py",
+  "backend_languages": {
+    "ru": 94,
+    "uz": 94,
+    "en": 94,
+    "zh": 94
+  },
+  "summary": {
+    "files_scanned": 28,
+    "files_with_ui_text": 23,
+    "unique_ui_phrases": 446,
+    "already_in_backend": 60,
+    "missing_in_backend": 386
+  },
+  "existing": [
+    {
+      "text": "Вызвать сантехника",
+      "count": 8,
+      "backend_key": "header.call_plumber",
+      "files": [
+        "src/components/services/ServicesCta.vue",
+        "src/components/services/ServicesMaster.vue",
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/AboutView.vue",
+        "src/views/HomeView.vue",
+        "src/views/RatingsView.vue",
+        "src/views/RequestView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Канализация",
+      "count": 7,
+      "backend_key": "services.categories.sewerage.title",
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue",
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/HomeView.vue",
+        "src/views/ServicesView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Отопление",
+      "count": 7,
+      "backend_key": "services.categories.heating.title",
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue",
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/HomeView.vue",
+        "src/views/ServicesView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Монтаж",
+      "count": 5,
+      "backend_key": "services.categories.installation.title",
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue",
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/ServicesView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Изумруд Сервис",
+      "count": 4,
+      "backend_key": "services.hero.title_brand",
+      "files": [
+        "src/components/services/ServicesMaster.vue",
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Выберите услугу",
+      "count": 3,
+      "backend_key": "services.catalog.title",
+      "files": [
+        "src/components/services/ServicesCategories.vue",
+        "src/views/RequestView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "НУЖЕН САНТЕХНИК?",
+      "count": 3,
+      "backend_key": "services.cta.label",
+      "files": [
+        "src/components/services/ServicesCta.vue",
+        "src/views/AboutView.vue",
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Ремонт",
+      "count": 3,
+      "backend_key": "services.categories.repair.title",
+      "files": [
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/ServicesView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Быстрый выезд",
+      "count": 3,
+      "backend_key": "services.hero.fast",
+      "files": [
+        "src/views/AboutView.vue",
+        "src/views/HomeView.vue",
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Гарантия",
+      "count": 3,
+      "backend_key": "services.hero.guarantee",
+      "files": [
+        "src/views/AboutView.vue",
+        "src/views/HomeView.vue",
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Бесплатно",
+      "count": 2,
+      "backend_key": "services.card.free",
+      "files": [
+        "src/components/services/ServiceCard.vue",
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "ПОЧЕМУ МЫ",
+      "count": 2,
+      "backend_key": "services.advantages.label",
+      "files": [
+        "src/components/services/ServicesAdvantages.vue",
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "КАК ЭТО РАБОТАЕТ",
+      "count": 2,
+      "backend_key": "services.process.label",
+      "files": [
+        "src/components/services/ServicesProcess.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "TELEGRAM-БОТ",
+      "count": 2,
+      "backend_key": "services.telegram.label",
+      "files": [
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Какую услугу нужно выполнить?",
+      "count": 2,
+      "backend_key": "services.telegram.question",
+      "files": [
+        "src/components/services/ServicesTelegram.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Опытные мастера",
+      "count": 2,
+      "backend_key": "services.advantages.experienced.title",
+      "files": [
+        "src/views/HomeView.vue",
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить список услуг.",
+      "count": 2,
+      "backend_key": "services.common.load_error",
+      "files": [
+        "src/views/RequestView.vue",
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Все услуги",
+      "count": 1,
+      "backend_key": "services.hero.all",
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Стоимость",
+      "count": 1,
+      "backend_key": "services.card.price",
+      "files": [
+        "src/components/services/ServiceCard.vue"
+      ]
+    },
+    {
+      "text": "Сервис, которому",
+      "count": 1,
+      "backend_key": "services.advantages.title",
+      "files": [
+        "src/components/services/ServicesAdvantages.vue"
+      ]
+    },
+    {
+      "text": "можно доверять",
+      "count": 1,
+      "backend_key": "services.advantages.title_accent",
+      "files": [
+        "src/components/services/ServicesAdvantages.vue"
+      ]
+    },
+    {
+      "text": "КАТАЛОГ УСЛУГ",
+      "count": 1,
+      "backend_key": "services.catalog.label",
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "под вашу задачу",
+      "count": 1,
+      "backend_key": "services.catalog.title_accent",
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "КАТЕГОРИЯ",
+      "count": 1,
+      "backend_key": "services.catalog.category",
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "Не нашли нужную услугу?",
+      "count": 1,
+      "backend_key": "services.cta.title",
+      "files": [
+        "src/components/services/ServicesCta.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку — мастер поможет разобраться с проблемой.",
+      "count": 1,
+      "backend_key": "services.cta.description",
+      "files": [
+        "src/components/services/ServicesCta.vue"
+      ]
+    },
+    {
+      "text": "НАШ МАСТЕР",
+      "count": 1,
+      "backend_key": "services.master.label",
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "лет опыта",
+      "count": 1,
+      "backend_key": "services.master.experience",
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "приём заявок",
+      "count": 1,
+      "backend_key": "services.hero.stats.requests",
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "Опытный мастер",
+      "count": 1,
+      "backend_key": "services.master.badge",
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "От заявки",
+      "count": 1,
+      "backend_key": "services.process.title",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "до результата",
+      "count": 1,
+      "backend_key": "services.process.title_accent",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Выбираете услугу",
+      "count": 1,
+      "backend_key": "services.process.step1.title",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Находите нужную работу в каталоге и оставляете заявку.",
+      "count": 1,
+      "backend_key": "services.process.step1.text",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Назначаем мастера",
+      "count": 1,
+      "backend_key": "services.process.step2.title",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Получаем заявку и подбираем специалиста для вашей задачи.",
+      "count": 1,
+      "backend_key": "services.process.step2.text",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Выполняем работу",
+      "count": 1,
+      "backend_key": "services.process.step3.title",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Мастер приезжает и выполняет необходимые сантехнические работы.",
+      "count": 1,
+      "backend_key": "services.process.step3.text",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "Вы оцениваете услугу",
+      "count": 1,
+      "backend_key": "services.process.step4.title",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "После завершения работы вы можете оценить качество услуги.",
+      "count": 1,
+      "backend_key": "services.process.step4.text",
+      "files": [
+        "src/components/services/ServicesProcess.vue"
+      ]
+    },
+    {
+      "text": "можно прямо в Telegram",
+      "count": 1,
+      "backend_key": "services.telegram.title_accent",
+      "files": [
+        "src/components/services/ServicesTelegram.vue"
+      ]
+    },
+    {
+      "text": "Открыть Telegram-бот",
+      "count": 1,
+      "backend_key": "services.telegram.button",
+      "files": [
+        "src/components/services/ServicesTelegram.vue"
+      ]
+    },
+    {
+      "text": "бот",
+      "count": 1,
+      "backend_key": "services.telegram.bot",
+      "files": [
+        "src/components/services/ServicesTelegram.vue"
+      ]
+    },
+    {
+      "text": "на выполненные работы",
+      "count": 1,
+      "backend_key": "services.hero.guarantee_text",
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Назад",
+      "count": 1,
+      "backend_key": "common.back",
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Загружаем услуги...",
+      "count": 1,
+      "backend_key": "services.common.loading",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Оперативно принимаем заявки и направляем мастера по Ташкенту.",
+      "count": 1,
+      "backend_key": "services.advantages.fast.text",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Профессионально выполняем сантехнические работы.",
+      "count": 1,
+      "backend_key": "services.advantages.experienced.text",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Отвечаем за качество выполненных работ.",
+      "count": 1,
+      "backend_key": "services.advantages.guarantee.text",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Удобный вызов",
+      "count": 1,
+      "backend_key": "services.advantages.convenient.title",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку на сайте или вызовите сантехника через Telegram.",
+      "count": 1,
+      "backend_key": "services.advantages.convenient.text",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Устраняем неисправности сантехники, протечки и поломки оборудования.",
+      "count": 1,
+      "backend_key": "services.categories.repair.description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Устанавливаем сантехническое оборудование аккуратно и профессионально.",
+      "count": 1,
+      "backend_key": "services.categories.installation.description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Работаем с засорами, сливом и канализационными системами.",
+      "count": 1,
+      "backend_key": "services.categories.sewerage.description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Монтаж оборудования и систем отопления для дома и бизнеса.",
+      "count": 1,
+      "backend_key": "services.categories.heating.description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Поможем разобраться с проблемой и выбрать подходящее решение.",
+      "count": 1,
+      "backend_key": "services.categories.consultation.description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Профессиональные сантехнические услуги для дома и бизнеса.",
+      "count": 1,
+      "backend_key": "services.categories.other.description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Консультация",
+      "count": 1,
+      "backend_key": "services.categories.consultation.title",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Подробности услуги уточняются у специалиста.",
+      "count": 1,
+      "backend_key": "services.service.fallback_description",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Другие услуги",
+      "count": 1,
+      "backend_key": "services.categories.other.title",
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "text": "ИЗУМРУД СЕРВИС",
+      "count": 5,
+      "backend_key": null,
+      "files": [
+        "src/components/AppHeader.vue",
+        "src/components/services/ServicesMaster.vue",
+        "src/views/AboutView.vue",
+        "src/views/RatingsView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Закрыть",
+      "count": 4,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Телефон",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue",
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Адрес",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue",
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "ремонт",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "монтаж",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "канал",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "отоп",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "консульт",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "диагност",
+      "count": 3,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Магазин",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/components/AppHeader.vue"
+      ]
+    },
+    {
+      "text": "Сантехника",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Ванная",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Другое",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue",
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Категории услуг",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "Всё необходимое",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "работ.",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue",
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Ремонт сантехники",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue",
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Позвонить",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Ташкент",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Сантехник",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Дополнительная информация",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue",
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Открыть Telegram",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue",
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Например, Бахтиёр Абдуллаев",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Например, 3 года",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Сантехника, отопление...",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Кратко расскажите о своём опыте и навыках",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "НАШИ УСЛУГИ",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue",
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Работаем на договорной основе и предоставляем",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Водоснабжение",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Профессиональная сантехническая услуга.",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Комментарий",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Ваше имя",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Например: Ташкент, ул. Амира Темура, 15",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Например: течёт кран на кухне, нужно заменить смеситель...",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить услуги:",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue",
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось определить координаты адреса.",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "неисправ",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "сантех",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Быстрая заявка",
+      "count": 2,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Наши видео",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Полезное о сантехнике",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Разбираемся в сантехнике, монтаже, отоплении и других",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "важных вопросах вместе с профессионалами.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Задать вопрос",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Загружаем видео...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Смотреть видео",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Видео пока не добавлены.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить видео:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить видео",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeVideos.vue"
+      ]
+    },
+    {
+      "text": "Наши работы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Результат, который говорит сам за себя",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Показываем реальные работы наших мастеров —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "от небольшого ремонта до сложного монтажа.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Загружаем наши работы...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Нет фотографии",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Работы пока не добавлены.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить выполненные работы:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить выполненные работы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/home/HomeWorks.vue"
+      ]
+    },
+    {
+      "text": "Мы делаем обращение за сантехнической помощью максимально простым",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesAdvantages.vue"
+      ]
+    },
+    {
+      "text": "и удобным.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesAdvantages.vue"
+      ]
+    },
+    {
+      "text": "Реальные услуги «Изумруд Сервис» с актуальными ценами от.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "Если не уверены, что именно требуется, оставьте заявку —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "мастер поможет определить решение.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesCategories.vue"
+      ]
+    },
+    {
+      "text": "ПРОФЕССИОНАЛЬНЫЙ САНТЕХНИК",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "Профессиональный сантехник с большим опытом работы.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "Поможет быстро решить сантехнические проблемы дома и в офисе.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "внимание к работе",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "Надёжная помощь",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "в нужный момент",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesMaster.vue"
+      ]
+    },
+    {
+      "text": "Оставляйте заявку, указывайте адрес и удобное время,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesTelegram.vue"
+      ]
+    },
+    {
+      "text": "получайте информацию о мастере и оценивайте выполненную работу.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/services/ServicesTelegram.vue"
+      ]
+    },
+    {
+      "text": "КАТАЛОГ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCategories.vue"
+      ]
+    },
+    {
+      "text": "Категории товаров",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCategories.vue"
+      ]
+    },
+    {
+      "text": "Подберём необходимые материалы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCategories.vue"
+      ]
+    },
+    {
+      "text": "для ремонта, монтажа и обслуживания.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCategories.vue"
+      ]
+    },
+    {
+      "text": "Смотреть товары",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCategoryCard.vue"
+      ]
+    },
+    {
+      "text": "НЕ ЗНАЕТЕ, ЧТО НУЖНО?",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCta.vue"
+      ]
+    },
+    {
+      "text": "Отправьте нам фото детали —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCta.vue"
+      ]
+    },
+    {
+      "text": "мастер поможет подобрать замену.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCta.vue"
+      ]
+    },
+    {
+      "text": "Если вы не знаете название или размер детали,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCta.vue"
+      ]
+    },
+    {
+      "text": "просто отправьте фотографию.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCta.vue"
+      ]
+    },
+    {
+      "text": "Получить помощь мастера →",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopCta.vue"
+      ]
+    },
+    {
+      "text": "МАГАЗИН САНТЕХНИКИ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "для сантехнических работ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "Смесители, трубы, фитинги, запчасти, отопление",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "и другие материалы для дома и профессионального монтажа.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "Смотреть каталог",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "Нужна помощь мастера →",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "Материалы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "для вашего дома",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopHero.vue"
+      ]
+    },
+    {
+      "text": "ТОВАРЫ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopProducts.vue"
+      ]
+    },
+    {
+      "text": "Популярные товары",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopProducts.vue"
+      ]
+    },
+    {
+      "text": "{{ new Intl.NumberFormat('ru-RU').format(product.price) }} сум",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopProducts.vue"
+      ]
+    },
+    {
+      "text": "Каталог скоро пополнится",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopProducts.vue"
+      ]
+    },
+    {
+      "text": "Мы готовим ассортимент сантехники и комплектующих.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/components/shop/ShopProducts.vue"
+      ]
+    },
+    {
+      "text": "Сантехнический сервис,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "которому можно доверять",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Помогаем решать сантехнические задачи быстро,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "аккуратно и профессионально. Работаем с квартирами,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "домами и коммерческими объектами в Ташкенте.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "О КОМПАНИИ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Помогаем решить проблему,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "а не просто выполнить работу",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "«ИЗУМРУД СЕРВИС» — сервис сантехнических услуг",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "в Ташкенте. Мы занимаемся ремонтом, монтажом,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "канализацией, отоплением и другими сантехническими",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "работами.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Для нас важно, чтобы клиент понимал, кто выполняет",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "работу, что именно будет сделано и за что он платит.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Сервис без",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "лишних сложностей",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Опытные специалисты",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Работа выполняется профессиональными мастерами",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "с практическим опытом.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Стараемся максимально быстро принять заявку",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "и направить специалиста.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Отвечаем за качество выполненных сантехнических",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Живые мастера",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Вы можете заранее узнать специалиста,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "который выполняет работу.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "НАША КОМАНДА",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Профессионалы,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "которым доверяют",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Познакомьтесь с нашими специалистами.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Проверенный мастер",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Опытный специалист, который помогает клиентам",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "решать сантехнические задачи быстро и качественно.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "лет профессионального опыта",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Монтаж оборудования",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Устранение протечек",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Загружаем информацию о мастерах...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "остальное мы сделаем сами.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Специалист свяжется с вами, уточнит задачу",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "и поможет подобрать решение.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить мастеров:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Команда сантехников ИЗУМРУД СЕРВИС",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/AboutView.vue"
+      ]
+    },
+    {
+      "text": "Свяжитесь с нами",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Нужен сантехник в Ташкенте?",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Позвоните нам или оставьте заявку —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "поможем решить проблему быстро и профессионально.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Сантехник рядом",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Готовы помочь",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "На связи",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "КОНТАКТЫ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Как с нами связаться",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Выберите удобный способ связи — мы ответим и поможем",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "оформить вызов сантехника.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Позвоните нам напрямую",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Вызвать сантехника через бота",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Работаем по всему городу",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Режим работы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Ежедневно",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Принимаем заявки на сантехнические работы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "ВАКАНСИИ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Присоединяйтесь к нашей команде",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Сантехнические услуги Emerald Service расширяются,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "и мы приглашаем ответственных, профессиональных и опытных специалистов.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "ОТКРЫТАЯ ВАКАНСИЯ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Нам нужны специалисты, которые умеют качественно выполнять",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "сантехнические работы, ответственно относятся к клиентам",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "и соблюдают сроки выполнения заказов.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Требования",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Опыт работы в сантехнической сфере от 1 до 3 лет.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Ответственность и своевременное выполнение работ.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Организованность и аккуратность.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Умение работать в команде.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Профессиональный подход к клиентам.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Оплата",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "По договорённости и результатам собеседования",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "ОТКЛИКНУТЬСЯ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте свои данные",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Заполните небольшую форму — мы свяжемся с вами",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "для обсуждения вакансии.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Имя и фамилия",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Опыт работы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Специализация",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Расскажите о себе",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Отправить отклик",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Сейчас форма работает в режиме подготовки.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Отправка отклика будет подключена следующим этапом.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "МЫ РЯДОМ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Работаем по Ташкенту",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Выезжаем на дом, в квартиру, офис и коммерческие помещения.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Расскажите, что случилось — подскажем оптимальное решение.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Ташкент и районы города",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Ремонт и монтаж сантехники",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Быстрый выезд мастера",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Не откладывайте проблему",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Свяжитесь с нами прямо сейчас — поможем разобраться",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "и организуем выезд мастера.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ContactsView.vue"
+      ]
+    },
+    {
+      "text": "Надёжные сантехнические услуги в Ташкенте",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Профессиональные",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "сантехнические услуги",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "в Ташкенте",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "«IZUMRUD SERVIS» MCHJ — профессиональные сантехнические",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "работы для дома, квартиры и бизнеса.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Быстро, аккуратно и качественно.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Посмотреть услуги",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Качественная работа",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Профессиональный подход",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "По Ташкенту",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Аккуратная работа",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Любая сантехника",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Ремонт и установка",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Поможем решить сантехническую проблему",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "От небольшого ремонта до полноценного монтажа сантехники.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Устранение неисправностей и поломок.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Монтаж сантехники",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Установка сантехнического оборудования.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Устранение засоров и проблемы с канализацией.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Монтаж, обслуживание и ремонт систем отопления.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Перейти ко всем услугам",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "СКИДКА",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "СПЕЦИАЛЬНЫЕ УСЛОВИЯ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Скидка 5 - 10% на все виды сантехнических услуг",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Мы предоставляем скидки от 5% до 10% для ветеранов, пенсионеров,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "матерей-одиночек и людей с ограниченными возможностями.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Наши ценности",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Мы ценим время, доверие и спокойствие каждого клиента.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Время клиента",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Вам не нужно ехать на рынок за материалами.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "У наших мастеров есть необходимые материалы,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "а если чего-то не хватает — специалист привезёт",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "всё необходимое сам.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Прозрачное обслуживание",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Мы придерживаемся понятной и прозрачной системы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "обслуживания, чтобы клиент заранее понимал,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "что и зачем выполняется.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Работаем официально",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "гарантии не только на словах, но и на бумаге.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "ДЛЯ БИЗНЕСА",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Для юридических лиц",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Обслуживаем канализационные и водопроводные системы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "организаций в Ташкенте и Ташкентской области.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Предоставляем полный спектр услуг по обслуживанию",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "канализации, отопления и водоснабжения.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Метод работы специалист определяет после диагностики",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "и определения характера проблемы.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Сегодня наши специалисты обеспечивают бесперебойную",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "работу инженерных коммуникаций многих организаций",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "в городе Ташкенте и Ташкентской области.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Надёжное обслуживание организаций",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Профессиональный подход, диагностика проблемы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "и выполнение работ с учётом особенностей объекта.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "ДОВЕРИЕ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Наши гарантии",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Заботимся о безопасности клиента, его времени,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "имуществе и результате выполненной работы.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Безопасность и аккуратность",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Заботимся о личной и имущественной безопасности",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "клиента. Используем бахилы и стараемся сохранить",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "помещение чистым во время выполнения работ.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Гарантия на результат",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "расширенную гарантию на результаты выполненных",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "Квалифицированные специалисты",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "В нашей команде дисциплинированные и квалифицированные",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "специалисты, которые постоянно повышают",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "профессиональный уровень.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/HomeView.vue"
+      ]
+    },
+    {
+      "text": "РЕЙТИНГ УСЛУГ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Нам доверяют.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Клиенты оценивают.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Честный рейтинг сантехнических услуг",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "на основе реальных оценок клиентов",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "после завершения работ.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Реальные оценки",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Только после завершения заявки",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Честная статистика",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Рейтинг формируется автоматически",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "ОБЩИЙ РЕЙТИНГ",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Проверено",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "ЛУЧШАЯ ОЦЕНКА",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Выбор наших клиентов",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Высокая оценка клиентов",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Лучшая оценка",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Одна из услуг с самой высокой",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "оценкой среди завершённых заявок.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Рейтинг каждой услуги",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Здесь собраны реальные оценки",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "клиентов по завершённым работам.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Загружаем рейтинг...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Пока нет оценок услуг.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Нужен сантехник?",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку — профессиональный",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "мастер поможет решить вашу",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "сантехническую проблему.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Ошибка загрузки рейтинга:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить рейтинг услуг.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "оценка",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "оценки",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "оценок",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RatingsView.vue"
+      ]
+    },
+    {
+      "text": "Вызов сантехника",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку, и мы свяжемся с вами",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "для подтверждения заказа и назначения мастера.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Заявка отправлена",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Спасибо! Мы получили вашу заявку.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "С вами свяжутся для подтверждения заказа.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Вернуться на главную",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Что нужно сделать?",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите нужную услугу",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Услуга",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "? 'Загрузка услуг...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": ": 'Выберите услугу",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Ваши данные",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Как с вами связаться",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Имя",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Куда должен приехать мастер",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Когда приехать?",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите удобные дату и время",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Дата",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Время",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "необязательно",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Отправляем заявку...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Ошибка геокодирования адреса:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Введите ваше имя.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Введите корректный номер телефона в формате +998901234567.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Введите адрес.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите услугу.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите дату.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите время.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите время до 17:00.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Некорректная дата или время.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Выберите будущее время.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Отправляем заявку:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Ошибка создания заявки:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось отправить заявку.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось отправить заявку. Проверьте соединение с сервером.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "Загрузка услуг...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/RequestView.vue"
+      ]
+    },
+    {
+      "text": "УСЛОВИЯ ВЫЕЗДА",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Выезд мастера —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "200 000 сумов",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Если работа будет выполнена, стоимость выезда не взимается.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "В случае отказа от работы или невозможности её выполнения.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Заказчик оплачивает 200 000 сумов для покрытия транспортных расходов.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "утеч",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "засор",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "слив",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "кот",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "тепл",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить данные мастера:",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ServicesView.vue"
+      ]
+    },
+    {
+      "text": "Загрузка каталога...",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ShopView.vue"
+      ]
+    },
+    {
+      "text": "Не удалось загрузить каталог.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/ShopView.vue"
+      ]
+    },
+    {
+      "text": "теперь ещё проще",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку прямо в Telegram.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Выберите услугу, укажите адрес и удобное время —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "остальное сделает команда «Изумруд Сервис».",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Как это работает",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Возможности",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Без лишних звонков",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "24/7 приём заявок",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "бот · онлайн",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Здравствуйте! 👋",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Я помогу вызвать сантехника.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Мне нужен сантехник",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Отлично 👍",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Давайте оформим заявку.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Укажите ваш адрес.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Сообщение",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Заявка принята",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "приём обращений",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "ВОЗМОЖНОСТИ БОТА",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "в одном чате",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Telegram-бот превращает вызов сантехника",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "в простой и понятный процесс.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "От Telegram",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "до мастера",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Всего несколько простых шагов —",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "и заявка отправлена в «Изумруд Сервис».",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "в одном сообщении",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Когда бот будет подключён к вашему Telegram,",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "здесь будет прямая кнопка запуска.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Выбор услуги",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Бот поможет быстро выбрать нужную сантехническую услугу.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Адрес и время",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Укажите адрес и удобное время для приезда мастера.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Заявка передаётся в сервис без лишних звонков и ожидания.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Оценка работы",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "После выполнения заказа вы сможете оценить работу мастера.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Откройте бота",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Перейдите в Telegram и запустите бота Изумруд Сервис.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Бот предложит основные категории сантехнических работ.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Оставьте заявку",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Укажите адрес, удобное время и дополнительную информацию.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Ждите мастера",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    },
+    {
+      "text": "Мы получим заявку и свяжемся с вами для подтверждения.",
+      "count": 1,
+      "backend_key": null,
+      "files": [
+        "src/views/TelegramBotView.vue"
+      ]
+    }
+  ]
+}

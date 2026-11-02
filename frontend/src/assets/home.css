@@ -1,0 +1,261 @@
+/* =========================================================
+   HOME — VALUES / BUSINESS / GUARANTEES
+   ========================================================= */
+
+.home-values,
+.home-business,
+.home-guarantees {
+  padding: 110px 24px;
+}
+
+
+/* =========================================================
+   COMMON
+   ========================================================= */
+
+.home-values__inner,
+.home-business__inner,
+.home-guarantees__inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.home-section-heading {
+  max-width: 720px;
+  margin-bottom: 52px;
+}
+
+.home-section-heading__eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #16834f;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.home-section-heading h2,
+.home-business h2 {
+  margin: 0 0 16px;
+  color: #173d2b;
+  font-size: clamp(34px, 4vw, 52px);
+  line-height: 1.05;
+  letter-spacing: -.03em;
+}
+
+.home-section-heading p {
+  margin: 0;
+  color: #64746b;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   VALUES
+   ========================================================= */
+
+.home-values {
+  background: #f7fbf8;
+}
+
+.home-values__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.home-values__card {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  border: 1px solid rgba(22, 131, 79, .10);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 16px 45px rgba(21, 67, 45, .07);
+}
+
+.home-values__icon {
+  flex: 0 0 52px;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: #e5f5eb;
+  color: #16834f;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.home-values__card h3,
+.home-guarantees__card h3 {
+  margin: 0 0 10px;
+  color: #173d2b;
+  font-size: 20px;
+}
+
+.home-values__card p,
+.home-guarantees__card p,
+.home-business p {
+  margin: 0;
+  color: #68766e;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   BUSINESS / B2B
+   ========================================================= */
+
+.home-business {
+  background:
+    radial-gradient(
+      circle at 85% 25%,
+      rgba(188, 231, 207, .45),
+      transparent 35%
+    ),
+    #edf8f1;
+}
+
+.home-business__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, .7fr);
+  gap: 70px;
+  align-items: center;
+}
+
+.home-business__lead {
+  max-width: 760px;
+  margin-bottom: 20px !important;
+  color: #315644 !important;
+  font-size: 20px !important;
+  line-height: 1.55 !important;
+}
+
+.home-business__content > p:not(.home-business__lead) {
+  max-width: 760px;
+  margin-bottom: 18px;
+}
+
+.home-business__features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.home-business__features span {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #fff;
+  color: #16834f;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 8px 25px rgba(21, 67, 45, .06);
+}
+
+.home-business__side {
+  padding: 38px;
+  border-radius: 28px;
+  background: #173d2b;
+  color: #fff;
+  box-shadow: 0 24px 60px rgba(23, 61, 43, .20);
+}
+
+.home-business__number {
+  margin-bottom: 22px;
+  color: #9fe0b8;
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: -.05em;
+}
+
+.home-business__side h3 {
+  margin: 0 0 14px;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.home-business__side p {
+  color: rgba(255, 255, 255, .72);
+}
+
+
+/* =========================================================
+   GUARANTEES
+   ========================================================= */
+
+.home-guarantees {
+  background: #fff;
+}
+
+.home-guarantees__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.home-guarantees__card {
+  position: relative;
+  min-height: 250px;
+  padding: 32px;
+  border: 1px solid #e5eee8;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 14px 40px rgba(21, 67, 45, .06);
+}
+
+.home-guarantees__index {
+  display: block;
+  margin-bottom: 35px;
+  color: #16834f;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .home-values__grid,
+  .home-guarantees__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-business__inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .home-values,
+  .home-business,
+  .home-guarantees {
+    padding: 75px 18px;
+  }
+
+  .home-values__card {
+    padding: 24px;
+  }
+
+  .home-business__side {
+    padding: 28px;
+  }
+
+  .home-guarantees__card {
+    min-height: auto;
+    padding: 26px;
+  }
+}

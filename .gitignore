@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Django media / collected static
+backend/media/
+backend/staticfiles/
+
+# Node
+node_modules/
+
+# Vite
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Local backup / temporary source files
+*.backup
+*.backup.*
+*.before_*
+*.before-*
+
+# All local backup variants
+*.backup*
+
+# Temporary alternative view
+frontend/src/views/ServicesView.new.vue
