@@ -128,6 +128,13 @@ class Product(models.Model):
         verbose_name="Цена",
     )
 
+    uzum_url = models.URLField(
+        max_length=500,
+        blank=True,
+        verbose_name="Ссылка на товар в Uzum",
+    )
+
+
     stock_quantity = models.PositiveIntegerField(
         default=0,
         verbose_name="Остаток",
@@ -204,3 +211,30 @@ class ProductImage(models.Model):
     def __str__(self):
         return f'{self.product.name} — фото {self.id}'
 
+
+
+class UzumClick(models.Model):
+    product = models.ForeignKey(
+        Product,
+        on_delete=models.CASCADE,
+        related_name="uzum_clicks",
+        verbose_name="Товар",
+    )
+    visitor_id = models.CharField(
+        max_length=36,
+        db_index=True,
+        verbose_name="Анонимный идентификатор посетителя",
+    )
+    clicked_at = models.DateTimeField(
+        auto_now_add=True,
+        db_index=True,
+        verbose_name="Дата перехода",
+    )
+
+    class Meta:
+        verbose_name = "Переход на Uzum"
+        verbose_name_plural = "Переходы на Uzum"
+        ordering = ["-clicked_at"]
+
+    def __str__(self):
+        return f"{self.product.name} — {self.clicked_at}"

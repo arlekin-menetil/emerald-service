@@ -46,3 +46,9 @@ frontend/dist/
 
 # Temporary alternative view
 frontend/src/views/ServicesView.new.vue
+
+# Local database and media backups
+backups/
+
+# Local source backups
+*.bak

@@ -61,6 +61,7 @@ function openProduct(product) {
             {{ new Intl.NumberFormat('ru-RU').format(product.price) }}
             {{ t('shop.product.currency') }}
           </strong>
+
         </div>
       </article>
     </div>

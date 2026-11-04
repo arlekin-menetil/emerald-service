@@ -2644,3 +2644,31 @@
   }
 }
 
+
+/* Uzum button on product detail */
+.shop-product-detail__uzum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 26px;
+  text-decoration: none;
+}
+
+.shop-product-detail__catalog {
+  margin-top: 12px;
+  border: 1px solid rgba(0, 143, 107, 0.16);
+  background: #f3f8f5;
+  color: #008f6b;
+  box-shadow: none;
+}
+
+.shop-product-detail__catalog:hover {
+  background: #e8f3ed;
+  color: #007c5d;
+  box-shadow: none;
+}
+
+.shop-product-detail__catalog strong {
+  background: rgba(0, 143, 107, 0.09);
+}

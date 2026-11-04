@@ -310,9 +310,18 @@ watch(
 
             </div>
 
+            <a
+              v-if="product.uzum_url"
+              :href="`${API_BASE}/api/shop/products/${product.id}/uzum/`"
+              class="shop-product-detail__request shop-product-detail__uzum"
+            >
+              Купить на Uzum
+              <strong>↗</strong>
+            </a>
+
             <button
               type="button"
-              class="shop-product-detail__request"
+              class="shop-product-detail__request shop-product-detail__catalog"
               @click="backToCategory"
             >
               {{ t('shop.product.back_to_catalog') }}

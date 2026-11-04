@@ -91,6 +91,7 @@ class ProductSerializer(serializers.ModelSerializer):
             "description_en",
             "description_zh",
             "price",
+            "uzum_url",
             "stock_quantity",
             "image",
             "gallery",
